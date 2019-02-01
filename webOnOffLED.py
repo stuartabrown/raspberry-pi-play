@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+import datetime
 import sys
 import RPi.GPIO as GPIO ## Import GPIO library
 GPIO.setmode(GPIO.BOARD) ## Use board pin numbering
@@ -19,3 +19,21 @@ if argsLen == 2:
     GPIO.output(7,False)
   else:
     print("this is broken")
+
+# print('Hello', 'World', 2+3, file=open('/home/pi/file.txt', 'w'))
+# sys.stdout = open('/home/pi/logfile', 'w')
+
+def logPrint(s):
+    now = datetime.datetime.now()
+    filename='/home/pi/log'+now.strftime('%Y-%m-%d')+'.txt'    
+    f=open(filename,'a')
+    f.write(now.strftime('%H:%M:%S')+' '+s+'\n')
+    # f.write(len(sys.argv))
+      
+    f.close()
+
+# logPrint('arg = ' + sys.argv[1])
+
+logPrint('arg = ' + sys.argv[1] + 'lenght = ' + str(len(sys.argv)))
+# logPrint(len(sys.argv))
+
