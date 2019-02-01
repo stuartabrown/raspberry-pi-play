@@ -1,7 +1,10 @@
 <?php
 if (!empty($_GET["action"])) {
-  $output = shell_exec("sudo python /var/www/html/webOnOffLED.py ".strtolower($_GET["action"])) ;
+  $output = shell_exec("sudo python /home/pi/raspberry-pi-play/webOnOffLED.py ".strtolower($_GET["action"])) ;
   echo "TURNING LED: ". strtoupper($_GET["action"]);
+}
+else {
+    print "foo";
 }
 ?>
 <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="get">

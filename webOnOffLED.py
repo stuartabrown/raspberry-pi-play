@@ -7,6 +7,7 @@ GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
 
 #getting the input parms
 argsLen = len(sys.argv)
+
 if argsLen == 2:
   if sys.argv[1] == "on":
     #Turn ON
@@ -16,3 +17,5 @@ if argsLen == 2:
     #Turn OFF
     print("Turning LED OFF")
     GPIO.output(7,False)
+  else:
+    print("this is broken")
