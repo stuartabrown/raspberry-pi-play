@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <location>
+    <name>Katherine</name>
+    <type>Administrative division</type>
+    <country>Australia</country>
+    <timezone id="Australia/Darwin" utcoffsetMinutes="570" />
+    <location altitude="176" latitude="-14.65012" longitude="132.17414" geobase="geonames" geobaseid="7839404" />
+  </location>
+  <credit>
+    <!--In order to use the free weather data from yr no, you HAVE to display 
+the following text clearly visible on your web page. The text should be a 
+link to the specified URL.-->
+    <!--Please read more about our conditions and guidelines at http://om.yr.no/verdata/  English explanation at http://om.yr.no/verdata/free-weather-data/-->
+    <link text="Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and the NRK" url="http://www.yr.no/place/Australia/Northern_Territory/Katherine/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/place/Australia/Northern_Territory/Katherine/forecast.xml" />
+    <link id="xmlSourceHourByHour" url="http://www.yr.no/place/Australia/Northern_Territory/Katherine/forecast_hour_by_hour.xml" />
+    <link id="overview" url="http://www.yr.no/place/Australia/Northern_Territory/Katherine/" />
+    <link id="hourByHour" url="http://www.yr.no/place/Australia/Northern_Territory/Katherine/hour_by_hour" />
+    <link id="longTermForecast" url="http://www.yr.no/place/Australia/Northern_Territory/Katherine/long" />
+  </links>
+  <meta>
+    <lastupdate>2019-02-04T05:14:14</lastupdate>
+    <nextupdate>2019-02-04T17:30:00</nextupdate>
+  </meta>
+  <sun rise="2019-02-04T06:33:52" set="2019-02-04T19:16:15" />
+  <forecast>
+    <tabular>
+      <time from="2019-02-04T06:30:00" to="2019-02-04T12:30:00" period="1">
+        <!-- Valid from 2019-02-04T06:30:00 to 2019-02-04T12:30:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="1.8" />
+        <!-- Valid at 2019-02-04T06:30:00 -->
+        <windDirection deg="314.8" code="NW" name="Northwest" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1005.0" />
+      </time>
+      <time from="2019-02-04T12:30:00" to="2019-02-04T18:30:00" period="2">
+        <!-- Valid from 2019-02-04T12:30:00 to 2019-02-04T18:30:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="2.3" />
+        <!-- Valid at 2019-02-04T12:30:00 -->
+        <windDirection deg="253.3" code="WSW" name="West-southwest" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1005.0" />
+      </time>
+      <time from="2019-02-04T18:30:00" to="2019-02-05T00:30:00" period="3">
+        <!-- Valid from 2019-02-04T18:30:00 to 2019-02-05T00:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-04T18:30:00 -->
+        <windDirection deg="280.5" code="W" name="West" />
+        <windSpeed mps="2.7" name="Light breeze" />
+        <temperature unit="celsius" value="31" />
+        <pressure unit="hPa" value="1002.4" />
+      </time>
+      <time from="2019-02-05T00:30:00" to="2019-02-05T06:30:00" period="0">
+        <!-- Valid from 2019-02-05T00:30:00 to 2019-02-05T06:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-05T00:30:00 -->
+        <windDirection deg="307.9" code="NW" name="Northwest" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1005.0" />
+      </time>
+      <time from="2019-02-05T06:30:00" to="2019-02-05T12:30:00" period="1">
+        <!-- Valid from 2019-02-05T06:30:00 to 2019-02-05T12:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-05T06:30:00 -->
+        <windDirection deg="318.3" code="NW" name="Northwest" />
+        <windSpeed mps="1.5" name="Light air" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1004.9" />
+      </time>
+      <time from="2019-02-05T12:30:00" to="2019-02-05T18:30:00" period="2">
+        <!-- Valid from 2019-02-05T12:30:00 to 2019-02-05T18:30:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="05d" />
+        <precipitation value="2.0" />
+        <!-- Valid at 2019-02-05T12:30:00 -->
+        <windDirection deg="243.4" code="WSW" name="West-southwest" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="35" />
+        <pressure unit="hPa" value="1003.5" />
+      </time>
+      <time from="2019-02-05T18:30:00" to="2019-02-06T00:30:00" period="3">
+        <!-- Valid from 2019-02-05T18:30:00 to 2019-02-06T00:30:00 -->
+        <symbol number="9" numberEx="46" name="Light rain" var="46" />
+        <precipitation value="0.9" />
+        <!-- Valid at 2019-02-05T18:30:00 -->
+        <windDirection deg="319.6" code="NW" name="Northwest" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="30" />
+        <pressure unit="hPa" value="1002.8" />
+      </time>
+      <time from="2019-02-06T00:30:00" to="2019-02-06T06:30:00" period="0">
+        <!-- Valid from 2019-02-06T00:30:00 to 2019-02-06T06:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-06T00:30:00 -->
+        <windDirection deg="300.9" code="WNW" name="West-northwest" />
+        <windSpeed mps="4.3" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1005.3" />
+      </time>
+      <time from="2019-02-06T06:30:00" to="2019-02-06T12:30:00" period="1">
+        <!-- Valid from 2019-02-06T06:30:00 to 2019-02-06T12:30:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.7" />
+        <!-- Valid at 2019-02-06T06:30:00 -->
+        <windDirection deg="295.1" code="WNW" name="West-northwest" />
+        <windSpeed mps="2.5" name="Light breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1004.6" />
+      </time>
+      <time from="2019-02-06T12:30:00" to="2019-02-06T18:30:00" period="2">
+        <!-- Valid from 2019-02-06T12:30:00 to 2019-02-06T18:30:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="3.5" />
+        <!-- Valid at 2019-02-06T12:30:00 -->
+        <windDirection deg="245.5" code="WSW" name="West-southwest" />
+        <windSpeed mps="2.9" name="Light breeze" />
+        <temperature unit="celsius" value="34" />
+        <pressure unit="hPa" value="1005.1" />
+      </time>
+      <time from="2019-02-06T18:30:00" to="2019-02-07T00:30:00" period="3">
+        <!-- Valid from 2019-02-06T18:30:00 to 2019-02-07T00:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-06T18:30:00 -->
+        <windDirection deg="319.7" code="NW" name="Northwest" />
+        <windSpeed mps="4.5" name="Gentle breeze" />
+        <temperature unit="celsius" value="28" />
+        <pressure unit="hPa" value="1004.3" />
+      </time>
+      <time from="2019-02-06T21:30:00" to="2019-02-07T03:30:00" period="0">
+        <!-- Valid from 2019-02-06T21:30:00 to 2019-02-07T03:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-06T21:30:00 -->
+        <windDirection deg="277.6" code="W" name="West" />
+        <windSpeed mps="1.0" name="Light air" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1007.0" />
+      </time>
+      <time from="2019-02-07T03:30:00" to="2019-02-07T09:30:00" period="1">
+        <!-- Valid from 2019-02-07T03:30:00 to 2019-02-07T09:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-07T03:30:00 -->
+        <windDirection deg="304.6" code="NW" name="Northwest" />
+        <windSpeed mps="3.5" name="Gentle breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1005.4" />
+      </time>
+      <time from="2019-02-07T09:30:00" to="2019-02-07T15:30:00" period="2">
+        <!-- Valid from 2019-02-07T09:30:00 to 2019-02-07T15:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-07T09:30:00 -->
+        <windDirection deg="258.2" code="WSW" name="West-southwest" />
+        <windSpeed mps="4.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="30" />
+        <pressure unit="hPa" value="1008.0" />
+      </time>
+      <time from="2019-02-07T15:30:00" to="2019-02-07T21:30:00" period="3">
+        <!-- Valid from 2019-02-07T15:30:00 to 2019-02-07T21:30:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="1.3" />
+        <!-- Valid at 2019-02-07T15:30:00 -->
+        <windDirection deg="262.3" code="W" name="West" />
+        <windSpeed mps="2.3" name="Light breeze" />
+        <temperature unit="celsius" value="34" />
+        <pressure unit="hPa" value="1003.4" />
+      </time>
+      <time from="2019-02-07T21:30:00" to="2019-02-08T03:30:00" period="0">
+        <!-- Valid from 2019-02-07T21:30:00 to 2019-02-08T03:30:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-07T21:30:00 -->
+        <windDirection deg="327.5" code="NNW" name="North-northwest" />
+        <windSpeed mps="2.8" name="Light breeze" />
+        <temperature unit="celsius" value="28" />
+        <pressure unit="hPa" value="1006.7" />
+      </time>
+      <time from="2019-02-08T03:30:00" to="2019-02-08T09:30:00" period="1">
+        <!-- Valid from 2019-02-08T03:30:00 to 2019-02-08T09:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-08T03:30:00 -->
+        <windDirection deg="290.0" code="WNW" name="West-northwest" />
+        <windSpeed mps="4.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1005.4" />
+      </time>
+      <time from="2019-02-08T09:30:00" to="2019-02-08T15:30:00" period="2">
+        <!-- Valid from 2019-02-08T09:30:00 to 2019-02-08T15:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-08T09:30:00 -->
+        <windDirection deg="254.5" code="WSW" name="West-southwest" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="30" />
+        <pressure unit="hPa" value="1008.1" />
+      </time>
+      <time from="2019-02-08T15:30:00" to="2019-02-08T21:30:00" period="3">
+        <!-- Valid from 2019-02-08T15:30:00 to 2019-02-08T21:30:00 -->
+        <symbol number="10" numberEx="10" name="Heavy rain" var="10" />
+        <precipitation value="10.7" />
+        <!-- Valid at 2019-02-08T15:30:00 -->
+        <windDirection deg="221.8" code="SW" name="Southwest" />
+        <windSpeed mps="4.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="34" />
+        <pressure unit="hPa" value="1003.1" />
+      </time>
+      <time from="2019-02-08T21:30:00" to="2019-02-09T03:30:00" period="0">
+        <!-- Valid from 2019-02-08T21:30:00 to 2019-02-09T03:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-08T21:30:00 -->
+        <windDirection deg="346.7" code="NNW" name="North-northwest" />
+        <windSpeed mps="1.9" name="Light breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1006.1" />
+      </time>
+      <time from="2019-02-09T03:30:00" to="2019-02-09T09:30:00" period="1">
+        <!-- Valid from 2019-02-09T03:30:00 to 2019-02-09T09:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-09T03:30:00 -->
+        <windDirection deg="295.9" code="WNW" name="West-northwest" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1004.6" />
+      </time>
+      <time from="2019-02-09T09:30:00" to="2019-02-09T15:30:00" period="2">
+        <!-- Valid from 2019-02-09T09:30:00 to 2019-02-09T15:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-09T09:30:00 -->
+        <windDirection deg="288.2" code="WNW" name="West-northwest" />
+        <windSpeed mps="3.4" name="Gentle breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1007.4" />
+      </time>
+      <time from="2019-02-09T15:30:00" to="2019-02-09T21:30:00" period="3">
+        <!-- Valid from 2019-02-09T15:30:00 to 2019-02-09T21:30:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40n" />
+        <precipitation value="0.5" />
+        <!-- Valid at 2019-02-09T15:30:00 -->
+        <windDirection deg="277.7" code="W" name="West" />
+        <windSpeed mps="5.7" name="Moderate breeze" />
+        <temperature unit="celsius" value="34" />
+        <pressure unit="hPa" value="1003.7" />
+      </time>
+      <time from="2019-02-09T21:30:00" to="2019-02-10T03:30:00" period="0">
+        <!-- Valid from 2019-02-09T21:30:00 to 2019-02-10T03:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-09T21:30:00 -->
+        <windDirection deg="317.6" code="NW" name="Northwest" />
+        <windSpeed mps="2.2" name="Light breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1007.1" />
+      </time>
+      <time from="2019-02-10T03:30:00" to="2019-02-10T09:30:00" period="1">
+        <!-- Valid from 2019-02-10T03:30:00 to 2019-02-10T09:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-10T03:30:00 -->
+        <windDirection deg="298.5" code="WNW" name="West-northwest" />
+        <windSpeed mps="3.1" name="Light breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1006.7" />
+      </time>
+      <time from="2019-02-10T09:30:00" to="2019-02-10T15:30:00" period="2">
+        <!-- Valid from 2019-02-10T09:30:00 to 2019-02-10T15:30:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="05d" />
+        <precipitation value="2.1" />
+        <!-- Valid at 2019-02-10T09:30:00 -->
+        <windDirection deg="289.5" code="WNW" name="West-northwest" />
+        <windSpeed mps="3.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="30" />
+        <pressure unit="hPa" value="1009.5" />
+      </time>
+      <time from="2019-02-10T15:30:00" to="2019-02-10T21:30:00" period="3">
+        <!-- Valid from 2019-02-10T15:30:00 to 2019-02-10T21:30:00 -->
+        <symbol number="10" numberEx="10" name="Heavy rain" var="10" />
+        <precipitation value="18.3" />
+        <!-- Valid at 2019-02-10T15:30:00 -->
+        <windDirection deg="339.8" code="NNW" name="North-northwest" />
+        <windSpeed mps="3.4" name="Gentle breeze" />
+        <temperature unit="celsius" value="32" />
+        <pressure unit="hPa" value="1004.9" />
+      </time>
+      <time from="2019-02-10T21:30:00" to="2019-02-11T03:30:00" period="0">
+        <!-- Valid from 2019-02-10T21:30:00 to 2019-02-11T03:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-10T21:30:00 -->
+        <windDirection deg="343.7" code="NNW" name="North-northwest" />
+        <windSpeed mps="2.7" name="Light breeze" />
+        <temperature unit="celsius" value="24" />
+        <pressure unit="hPa" value="1009.8" />
+      </time>
+      <time from="2019-02-11T03:30:00" to="2019-02-11T09:30:00" period="1">
+        <!-- Valid from 2019-02-11T03:30:00 to 2019-02-11T09:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-11T03:30:00 -->
+        <windDirection deg="340.1" code="NNW" name="North-northwest" />
+        <windSpeed mps="2.4" name="Light breeze" />
+        <temperature unit="celsius" value="25" />
+        <pressure unit="hPa" value="1007.9" />
+      </time>
+      <time from="2019-02-11T09:30:00" to="2019-02-11T15:30:00" period="2">
+        <!-- Valid from 2019-02-11T09:30:00 to 2019-02-11T15:30:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="05d" />
+        <precipitation value="4.0" />
+        <!-- Valid at 2019-02-11T09:30:00 -->
+        <windDirection deg="292.9" code="WNW" name="West-northwest" />
+        <windSpeed mps="4.4" name="Gentle breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1009.8" />
+      </time>
+      <time from="2019-02-11T15:30:00" to="2019-02-11T21:30:00" period="3">
+        <!-- Valid from 2019-02-11T15:30:00 to 2019-02-11T21:30:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="1.2" />
+        <!-- Valid at 2019-02-11T15:30:00 -->
+        <windDirection deg="325.7" code="NW" name="Northwest" />
+        <windSpeed mps="4.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="32" />
+        <pressure unit="hPa" value="1005.3" />
+      </time>
+      <time from="2019-02-11T21:30:00" to="2019-02-12T03:30:00" period="0">
+        <!-- Valid from 2019-02-11T21:30:00 to 2019-02-12T03:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="02n" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-11T21:30:00 -->
+        <windDirection deg="349.1" code="N" name="North" />
+        <windSpeed mps="2.4" name="Light breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1009.0" />
+      </time>
+      <time from="2019-02-12T03:30:00" to="2019-02-12T09:30:00" period="1">
+        <!-- Valid from 2019-02-12T03:30:00 to 2019-02-12T09:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-12T03:30:00 -->
+        <windDirection deg="326.0" code="NW" name="Northwest" />
+        <windSpeed mps="3.2" name="Light breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1007.2" />
+      </time>
+      <time from="2019-02-12T09:30:00" to="2019-02-12T15:30:00" period="2">
+        <!-- Valid from 2019-02-12T09:30:00 to 2019-02-12T15:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-12T09:30:00 -->
+        <windDirection deg="289.2" code="WNW" name="West-northwest" />
+        <windSpeed mps="5.0" name="Gentle breeze" />
+        <temperature unit="celsius" value="30" />
+        <pressure unit="hPa" value="1009.5" />
+      </time>
+      <time from="2019-02-12T15:30:00" to="2019-02-12T21:30:00" period="3">
+        <!-- Valid from 2019-02-12T15:30:00 to 2019-02-12T21:30:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="05n" />
+        <precipitation value="1.0" />
+        <!-- Valid at 2019-02-12T15:30:00 -->
+        <windDirection deg="277.5" code="W" name="West" />
+        <windSpeed mps="2.3" name="Light breeze" />
+        <temperature unit="celsius" value="34" />
+        <pressure unit="hPa" value="1004.7" />
+      </time>
+      <time from="2019-02-12T21:30:00" to="2019-02-13T03:30:00" period="0">
+        <!-- Valid from 2019-02-12T21:30:00 to 2019-02-13T03:30:00 -->
+        <symbol number="10" numberEx="10" name="Heavy rain" var="10" />
+        <precipitation value="6.6" />
+        <!-- Valid at 2019-02-12T21:30:00 -->
+        <windDirection deg="317.0" code="NW" name="Northwest" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1009.0" />
+      </time>
+      <time from="2019-02-13T03:30:00" to="2019-02-13T09:30:00" period="1">
+        <!-- Valid from 2019-02-13T03:30:00 to 2019-02-13T09:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2019-02-13T03:30:00 -->
+        <windDirection deg="319.8" code="NW" name="Northwest" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="25" />
+        <pressure unit="hPa" value="1007.3" />
+      </time>
+      <time from="2019-02-13T09:30:00" to="2019-02-13T15:30:00" period="2">
+        <!-- Valid from 2019-02-13T09:30:00 to 2019-02-13T15:30:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="05d" />
+        <precipitation value="1.0" />
+        <!-- Valid at 2019-02-13T09:30:00 -->
+        <windDirection deg="289.9" code="WNW" name="West-northwest" />
+        <windSpeed mps="4.4" name="Gentle breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1010.5" />
+      </time>
+      <time from="2019-02-13T15:30:00" to="2019-02-13T21:30:00" period="3">
+        <!-- Valid from 2019-02-13T15:30:00 to 2019-02-13T21:30:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="2.4" />
+        <!-- Valid at 2019-02-13T15:30:00 -->
+        <windDirection deg="288.0" code="WNW" name="West-northwest" />
+        <windSpeed mps="3.2" name="Light breeze" />
+        <temperature unit="celsius" value="32" />
+        <pressure unit="hPa" value="1005.7" />
+      </time>
+    </tabular>
+  </forecast>
+</weatherdata>

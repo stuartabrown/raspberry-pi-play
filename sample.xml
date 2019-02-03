@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<book>
+   <chapter id="prologue">
+      <title>
+     The Beginning
+  </title>
+      <para>
+     This is the first paragraph.
+      </para>
+    </chapter>
+
+    <chapter id="end">
+      <title>
+     The Ending
+  </title>
+      <para>
+     Last para of last chapter.
+      </para>
+    </chapter>
+</book>
