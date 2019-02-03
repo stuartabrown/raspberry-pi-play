@@ -4,10 +4,13 @@ import untangle
 data = untangle.parse('forecast.xml')
 # print(data.weatherdata.location.name.cdata.strip())
 
+# for forecast in data.weatherdata.forecast.tabular.time:
+# #   print (data.weatherdata.forecast.tabular.time.temperature['value'])
+#   print (forecast.temperature['value'])
+
 for forecast in data.weatherdata.forecast.tabular:
 #   print (data.weatherdata.forecast.tabular.time.temperature['value'])
-#   print (forecast.temperature['value'])
-  print (forecast.time['from'])
+  print ("time is " + forecast.time['from'] + "and temperature  is " + forecast.time.temperature['value'])
 
     # forecast_data = { 'from' : int(time.mktime(dateutil.parser.parse(forecast['from']).timetuple())),
     #                     'to' : int(time.mktime(dateutil.parser.parse(forecast['to']).timetuple())),

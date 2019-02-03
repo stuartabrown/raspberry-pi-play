@@ -1,5 +1,7 @@
 #!/usr/bin/python
-
+for forecast in data.weatherdata.forecast.tabular.time:
+#   print (data.weatherdata.forecast.tabular.time.temperature['value'])
+  print (forecast.temperature['value'])
 import sys
 import RPi.GPIO as GPIO ## Import GPIO library
 import time ## Time library functions
